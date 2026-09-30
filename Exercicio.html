@@ -1,0 +1,101 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ </head>
+ <style>
+       <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 900px;
+            border-collapse: collapse ;
+            
+            position: relative;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        thead, tfoot {
+            background-color: gray;
+            color: white;
+        }
+
+        thead > tr > th {
+         
+            position: sticky; 
+            top: 0; 
+            background-color: gray;
+
+        }
+        td.num {
+            text-align: right;
+        }
+        caption {
+            
+            font-size: 1.5em;
+            
+            font-weight: bold;
+           
+            padding: 10px;
+            
+            background-color: lightgray;
+
+        }
+        */
+        tbody > tr:nth-child(2n) {
+            background-color: gray;
+
+        } 
+</style>
+ <body>
+  <table>
+    <caption>
+        População dos estados Brasileiros - 2024
+    </caption>
+    <thead>
+        <tr>
+            <th>Estado</th>
+            <th>População</th>
+            <th>Comandos HTML utilizado</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td> <strong>Acre</strong> </td>
+            <td class="num"> <mark>830.018</mark></td>
+            <td><strong>'Negrito</strong> e <mark>Destacado</mark></td>   
+        </tr>
+        <tr>
+            <td> <em>Alagoas</em> </td>
+            <td calss="num"> 3.365.351</td>
+            <td><em>'Itálico</em></td>
+        </tr>
+        <tr>
+            <td> <u>Amapá</u> </td>
+            <td cass="num">877.613</td>
+            <td><u>Texto sublinhado</u></td>    
+        </tr>
+        <tr>
+            <td> <s>Amazonas</s></td>
+            <td class="num"><u>4.269.995</u></td>
+            <td><s>Texro riscado</s> e <u>Texto sublinhado</u></td>    
+        </tr>
+        <tr>
+            <td> <sup>Bahia</sup> </td>
+            <td class="num">14.141.626</td>
+            <td><sup>Texto sobrescrito</sup></td>    
+        </tr>
+
+        
+
+
+    </tbody>
+  </table>  
+ </body>
+ </html>
